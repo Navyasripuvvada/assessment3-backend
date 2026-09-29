@@ -9,7 +9,7 @@ export async function createApp() {
 
   const corsOrigins = [
     'http://localhost:3000',
-    'http://localhost:5173',
+    'http://localhost:5173', 'https://task3-frontend-seven.vercel.app',
     process.env.FRONTEND_URL,
   ].filter((origin): origin is string => Boolean(origin));
 
